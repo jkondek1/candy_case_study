@@ -12,4 +12,5 @@ else
     echo "Unsupported OS"
     exit 1
 fi
-wget https://github.com/fivethirtyeight/data/blob/master/candy-power-ranking/candy-data.csv
+
+wget https://raw.githubusercontent.com/fivethirtyeight/data/refs/heads/master/candy-power-ranking/candy-data.csv
