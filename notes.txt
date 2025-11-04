@@ -8,3 +8,4 @@
 - https://www.mordorintelligence.com/industry-reports/europe-confectionery-market
 - https://www.snackandbakery.com/articles/103562-state-of-the-industry-2022-gummy-texture-flavor-innovation-drive-growth-in-non-chocolate-chewy-candy
 - https://www.confectionerynews.com/News/Promotional-features/eu-confectionery-trends-shaping-the-market/
+- https://github.com/mansimajithia/ETLProject-Candy-Dataset?tab=readme-ov-file !!
