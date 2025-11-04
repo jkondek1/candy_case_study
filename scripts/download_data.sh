@@ -14,3 +14,4 @@ else
 fi
 
 wget https://raw.githubusercontent.com/fivethirtyeight/data/refs/heads/master/candy-power-ranking/candy-data.csv
+wget https://raw.githubusercontent.com/mansimajithia/ETLProject-Candy-Dataset/refs/heads/master/Resources/transformed_candy_3.csv
