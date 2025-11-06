@@ -4,6 +4,7 @@
 Analysis of candy popularity based on various attributes including brand ownership, composition features, and market characteristics.
 
 ## Project Structure
+```
 candy_case_study/
 ├── data/
 │   ├── candy-data.csv
@@ -17,7 +18,7 @@ candy_case_study/
 │   └── text_matching.py
 ├── requirements.txt
 └── README.md
-
+```
 ## Data
 
 ### Original Features
