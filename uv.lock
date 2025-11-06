@@ -6,6 +6,22 @@ resolution-markers = [
 ]
 
 [[package]]
+name = "altair"
+version = "5.5.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "jinja2" },
+    { name = "jsonschema" },
+    { name = "narwhals" },
+    { name = "packaging" },
+    { name = "typing-extensions", marker = "python_full_version < '3.14'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/16/b1/f2969c7bdb8ad8bbdda031687defdce2c19afba2aa2c8e1d2a17f78376d8/altair-5.5.0.tar.gz", hash = "sha256:d960ebe6178c56de3855a68c47b516be38640b73fb3b5111c2a9ca90546dd73d", size = 705305 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/aa/f3/0b6ced594e51cc95d8c1fc1640d3623770d01e4969d29c0bd09945fafefa/altair-5.5.0-py3-none-any.whl", hash = "sha256:91a310b926508d560fe0148d02a194f38b824122641ef528113d029fcd129f8c", size = 731200 },
+]
+
+[[package]]
 name = "annotated-types"
 version = "0.7.0"
 source = { registry = "https://pypi.org/simple" }
@@ -172,6 +188,7 @@ dependencies = [
     { name = "openai" },
     { name = "pandas" },
     { name = "pandas-stubs" },
+    { name = "prince" },
     { name = "python-dotenv" },
     { name = "scikit-learn" },
     { name = "scipy-stubs" },
@@ -190,6 +207,7 @@ requires-dist = [
     { name = "openai", specifier = ">=2.6.1" },
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "pandas-stubs", specifier = "==2.3.2.250926" },
+    { name = "prince", specifier = ">=0.16.2" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "scikit-learn", specifier = ">=1.7.2" },
     { name = "scipy-stubs", specifier = "==1.16.3.0" },
@@ -1771,6 +1789,20 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/06/e6/b768650072837505804bed4790c5449ba348a3b720e27ca7605414e998cd/plotly-6.4.0.tar.gz", hash = "sha256:68c6db2ed2180289ef978f087841148b7efda687552276da15a6e9b92107052a", size = 7012379 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/78/ae/89b45ccccfeebc464c9233de5675990f75241b8ee4cd63227800fdf577d1/plotly-6.4.0-py3-none-any.whl", hash = "sha256:a1062eafbdc657976c2eedd276c90e184ccd6c21282a5e9ee8f20efca9c9a4c5", size = 9892458 },
+]
+
+[[package]]
+name = "prince"
+version = "0.16.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "altair" },
+    { name = "pandas" },
+    { name = "scikit-learn" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/81/d4/915c158993800099f471092c66d64fb217bcdd48970c645e53605a8b40cb/prince-0.16.2.tar.gz", hash = "sha256:ecd52e0c9a78ba173eb8b8b69fe8eb9ffe67f5db4fdbacf29e63af4ce330d8e2", size = 183166 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/93/fe/92068ae56c8a88ee9123234014233561917dcd5c56c26a2c99f014444d36/prince-0.16.2-py3-none-any.whl", hash = "sha256:75c03afae5600c0b0f1bfd6e79d33ee8884fca198825d4242ba34efe9a43d848", size = 179029 },
 ]
 
 [[package]]
