@@ -10,13 +10,17 @@ candy_case_study/
 │   ├── candy-data.csv
 │   └── candy-data-cleaned.csv
 ├── notebooks/
-│   ├── exploratory_data_analysis.ipynb
+│   ├── eda.ipynb
 │   ├── feature_engineering.ipynb
-│   └── analysis_modeling.ipynb
+│   ├── analysis_modeling.ipynb
+│   └──final_product_determination.ipynb
 ├── utils/
 │   ├── llm.py
 │   └── text_matching.py
-├── requirements.txt
+├── scripts/
+│   └── download_data.sh
+├── pyproject.toml
+├── uv.lock
 └── README.md
 ```
 ## Data
